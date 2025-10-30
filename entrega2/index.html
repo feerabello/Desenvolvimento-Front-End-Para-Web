@@ -11,8 +11,20 @@
   <nav class="navbar">
     <input type="checkbox" id="menu-toggle">
     <ul class="nav-links">
-      <li class="nav-link"><a href="/">Início</a></li>
-      <li class="nav-link"><a href="projetos.html">Projetos</a></li>
+      <li class="nav-link">
+        <a href="/">Início</a>
+        <ul class="link-dropdown">
+          <li><a href="/">Sobre a organização</a></li>
+          <li><a href="/">Nosso contato</a></li>
+        </ul>
+      </li>
+      <li class="nav-link">
+        <a href="projetos.html">Projetos</a>
+        <ul class="link-dropdown">
+          <li><a href="/">Voluntariado</a></li>
+          <li><a href="/">Doações</a></li>
+        </ul>
+      </li>
       <li class="nav-link"><a href="cadastro.html">Cadastro</a></li>
     </ul>
     <ul class="nav-actions">
@@ -23,12 +35,19 @@
       </li>
     </ul>
   </nav>
-  <h1>Sobre a organização</h1>
-  <p>Somos uma organização dedicada a fortalecer o impacto social das ONGs, oferecendo presença digital profissional,
-    funcional e acessível. Acreditamos que cada causa merece ser vista e apoiada, por isso ajudamos instituições a se
-    destacarem online com sites modernos, estratégias eficazes e ferramentas que conectam suas missões a mais pessoas.</p>
-  <h2>Nosso contato</h2>
-  <p>Email: contato@exemplo.com</p>
-  <p>Telefone: (11) 1234-5678</p>
+  <main>
+    <h1 class="title">Bem-vindo à nossa organização</h1>
+    <div class="card about">
+      <h2>Sobre a organização</h2>
+      <p>Somos uma organização dedicada a fortalecer o impacto social das ONGs, oferecendo presença digital profissional,
+        funcional e acessível. Acreditamos que cada causa merece ser vista e apoiada, por isso ajudamos instituições a se
+        destacarem online com sites modernos, estratégias eficazes e ferramentas que conectam suas missões a mais pessoas.</p>
+    </div>
+    <div class="card contact">
+      <h2>Nosso contato</h2>
+      <p>Email: contato@exemplo.com</p>
+      <p>Telefone: (11) 1234-5678</p>
+    </div>
+  </main>
 </body>
 </html>
